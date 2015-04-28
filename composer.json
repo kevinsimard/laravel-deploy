@@ -1,0 +1,21 @@
+{
+    "name": "kevinsimard/laravel-deploy",
+    "description": "Deploy Laravel application through SSH",
+    "keywords": ["laravel", "remote", "ssh", "deploy"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Simard",
+            "email": "kev.simard@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Kevinsimard\\Deploy": "src/"
+        }
+    },
+    "require": {
+        "illuminate/console": "5.x",
+        "laravelcollective/remote": "5.0.*"
+    }
+}
