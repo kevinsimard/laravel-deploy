@@ -99,7 +99,7 @@ class DeployTask extends Command
             ['remote', null, InputOption::VALUE_OPTIONAL, 'Remote connection/group name.'],
             ['no-composer', null, InputOption::VALUE_NONE, 'Do not install dependencies.'],
             ['no-migration', null, InputOption::VALUE_NONE, 'Do not run migration files.'],
-            ['no-maintenance', null, InputOption::VALUE_NONE, 'Do not use maitenance mode.'],
+            ['no-maintenance', null, InputOption::VALUE_NONE, 'Do not use maintenance mode.'],
         ];
     }
 }
