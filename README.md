@@ -1,5 +1,4 @@
 # Deploy Laravel Application
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
 ## Installation
 Add ```Kevinsimard\Deploy\Command\Task\DeployTask``` to the list of commands in ```app/Console/Kernel.php```
@@ -74,8 +73,4 @@ php artisan deploy:app <ROOT>
     ├── .gitattributes
     ├── .gitignore
     ├── composer.json
-    ├── LICENSE.txt
     └── README.md
-
-## License
-This command is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
