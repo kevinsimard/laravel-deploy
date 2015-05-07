@@ -1,4 +1,5 @@
 # Deploy Laravel Application
+[![Code Climate](https://codeclimate.com/github/kevinsimard/laravel-deploy/badges/gpa.svg)](https://codeclimate.com/github/kevinsimard/laravel-deploy)
 
 ## Installation
 Add ```Kevinsimard\Deploy\Command\Task\DeployTask``` to the list of commands in ```app/Console/Kernel.php```
