@@ -49,7 +49,7 @@ class DeployTask extends Command
         // change current directory
         $commands[] = "cd {$this->argument('root')}";
 
-        if ( ! $this->option('no-maintenance')) {
+        if (!$this->option('no-maintenance')) {
             // set maintenance mode ON
             $commands[] = 'php artisan down';
         }
@@ -58,7 +58,7 @@ class DeployTask extends Command
         $commands[] = 'git checkout -f';
         $commands[] = 'git pull -f';
 
-        if ( ! $this->option('no-composer')) {
+        if (!$this->option('no-composer')) {
             // update composer
             $commands[] = 'composer self-update';
 
@@ -71,12 +71,12 @@ class DeployTask extends Command
                 --optimize-autoloader';
         }
 
-        if ( ! $this->option('no-migration')) {
+        if (!$this->option('no-migration')) {
             // run database migrations
             $commands[] = 'php artisan migrate --force';
         }
 
-        if ( ! $this->option('no-maintenance')) {
+        if (!$this->option('no-maintenance')) {
             // set maintenance mode OFF
             $commands[] = 'php artisan up';
         }
