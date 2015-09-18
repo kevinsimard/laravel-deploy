@@ -1,6 +1,6 @@
 <?php
 
-namespace Kevinsimard\Deploy\Command\Task;
+namespace KevinSimard\Deploy\Command\Task;
 
 use Collective\Remote\RemoteManager;
 use Illuminate\Console\Command;
