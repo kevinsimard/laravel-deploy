@@ -65,13 +65,13 @@ php artisan deploy:app <ROOT>
 * **_--no-maintenance_**: Do not use maintenance mode
 
 ## Code Structure
-    ┌── src/
-    │   └── Kevinsimard/
-    │       └── Deploy/
-    │           └── Command/
-    │               └── Task/
-    │                   └── DeployTask.php
+    ├── src
+    │   └── Kevinsimard
+    │       └── Deploy
+    │           └── Command
+    │               └── Task
+    │                   └── DeployTask.php
     ├── .gitattributes
     ├── .gitignore
-    ├── composer.json
-    └── README.md
+    ├── README.md
+    └── composer.json
