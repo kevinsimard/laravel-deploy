@@ -9,13 +9,13 @@
             "email": "kev.simard@gmail.com"
         }
     ],
+    "require": {
+        "illuminate/console": "5.x",
+        "laravelcollective/remote": "5.0.*"
+    },
     "autoload": {
         "psr-0": {
             "Kevinsimard\\Deploy": "src/"
         }
-    },
-    "require": {
-        "illuminate/console": "5.x",
-        "laravelcollective/remote": "5.0.*"
     }
 }

@@ -1,8 +1,8 @@
 # Deploy Laravel Application
-[![Code Climate](https://codeclimate.com/github/kevinsimard/laravel-deploy/badges/gpa.svg)](https://codeclimate.com/github/kevinsimard/laravel-deploy)
 
 ## Installation
-Add ```Kevinsimard\Deploy\Command\Task\DeployTask``` to the list of commands in ```app/Console/Kernel.php```
+
+Add `Kevinsimard\Deploy\Command\Task\DeployTask` to the list of commands in `app/Console/Kernel.php`.
 
 ```php
 <?php namespace App\Console;
@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel {
 ...
 ```
 
-Add/edit the  ```config/remote.php``` file
+Add/edit the  `config/remote.php` file.
 
 ```php
 <?php
@@ -54,6 +54,7 @@ return [
 ```
 
 ## Artisan Command
+
 ```bash
 php artisan deploy:app <ROOT>
 ```
@@ -65,13 +66,20 @@ php artisan deploy:app <ROOT>
 * **_--no-maintenance_**: Do not use maintenance mode
 
 ## Code Structure
+
     ├── src
     │   └── Kevinsimard
     │       └── Deploy
     │           └── Command
     │               └── Task
     │                   └── DeployTask.php
+    ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore
+    ├── LICENSE.txt
     ├── README.md
     └── composer.json
+
+## License
+
+This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
