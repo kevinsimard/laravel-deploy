@@ -10,23 +10,17 @@ use Symfony\Component\Console\Input\InputOption;
 class DeployTask extends Command
 {
     /**
-     * The console command name.
-     *
-     * @var string
+     * {@inheritdoc}
      */
     protected $name = 'deploy:app';
 
     /**
-     * The console command description.
-     *
-     * @var string
+     * {@inheritdoc}
      */
     protected $description = 'Deploy Laravel application through SSH.';
 
     /**
-     * Execute the console command.
-     *
-     * @return mixed
+     * {@inheritdoc}
      */
     public function fire()
     {
@@ -38,8 +32,6 @@ class DeployTask extends Command
     }
 
     /**
-     * Prepare a set of commands.
-     *
      * @return array
      */
     protected function prepareCommands()
@@ -85,9 +77,7 @@ class DeployTask extends Command
     }
 
     /**
-     * Get the console command arguments.
-     *
-     * @return array
+     * {@inheritdoc}
      */
     protected function getArguments()
     {
@@ -97,9 +87,7 @@ class DeployTask extends Command
     }
 
     /**
-     * Get the console command options.
-     *
-     * @return array
+     * {@inheritdoc}
      */
     protected function getOptions()
     {
