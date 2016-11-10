@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel {
      */
     protected $commands = [
         ...
-        'Kevinsimard\Deploy\Command\Task\DeployTask',
+        "Kevinsimard\Deploy\Command\Task\DeployTask",
     ];
 ...
 ```
@@ -29,24 +29,24 @@ Add/edit the  `config/remote.php` file.
 
 return [
     // default connection name
-    'default' => 'local',
+    "default" => "local",
 
     // connections
-    'connections' => [
-        'local' => [
-            'host'      => '127.0.0.1',
-            'username'  => 'username',
-            'password'  => 'password',
-            'key'       => '',
-            'keytext'   => '',
-            'keyphrase' => '',
-            'agent'     => '',
+    "connections" => [
+        "local" => [
+            "host"      => "127.0.0.1",
+            "username"  => "username",
+            "password"  => "password",
+            "key"       => "",
+            "keytext"   => "",
+            "keyphrase" => "",
+            "agent"     => "",
         ],
     ],
 
     // connection groups
-    'groups' => [
-        'web' => ['local']
+    "groups" => [
+        "web" => ["local"]
     ],
 ];
 ```
