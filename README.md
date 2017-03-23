@@ -74,7 +74,7 @@ php artisan deploy:app <ROOT>
     ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore
-    ├── LICENSE.txt
+    ├── LICENSE.md
     ├── README.md
     └── composer.json
 
